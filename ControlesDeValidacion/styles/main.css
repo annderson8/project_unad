@@ -1,0 +1,168 @@
+﻿body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+.header {
+    align-items: center;
+    background-color: #2194c0;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+}
+
+.header__img {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.register {
+    background-image: linear-gradient(#2194c0, #b97903);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px); /* El ancho será igual al tamaño de todo el height menos 200px (100px del header + 100px del footer) */
+}
+
+.container {
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 600px;
+    padding: 50px 60px 35px;
+    width: 300px;
+}
+
+.container_max {
+    width: 90%;
+    min-height: 300px;
+}
+
+.container_courses {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container_modules {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.register__container--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__container a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .register__container a:hover {
+        text-decoration: underline;
+    }
+
+.default {
+    min-height: 300px;
+}
+
+
+.user__container--table {
+    width: 100%;
+}
+
+.footer {
+    align-items: center;
+    background-color: #b97903;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+    .footer p {
+        color: white;
+        font-size: 14px;
+        padding-left: 30px;
+    }
+
+.input {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 20px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.input option {
+    color:black;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.button_course {
+
+    border-radius: 15px;
+    height: 150px;
+    margin: 10px 0px;
+}
+
+.button_module {
+    border-radius: 10px;
+    height: 70px;
+    margin: 8px 0px;
+}
+
+    @media only screen and (max-width: 600px) {
+        .register__container {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
