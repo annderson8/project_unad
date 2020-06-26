@@ -11,6 +11,12 @@ Partial Class machinelearning_Default
     Protected Sub MButton3_Click(sender As Object, e As EventArgs) Handles MButton3.Click
         Response.Redirect("Module3.aspx")
     End Sub
+    Protected Sub MButton4_Click(sender As Object, e As EventArgs) Handles MButton4.Click
+        Response.Redirect("Module4.aspx")
+    End Sub
+    Protected Sub MButton5_Click(sender As Object, e As EventArgs) Handles MButton5.Click
+        Response.Redirect("Module5.aspx")
+    End Sub
     Protected Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
         Response.Redirect("../Courses.aspx")
     End Sub
