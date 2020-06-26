@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/machinelearning/MasterPage.master" AutoEventWireup="false" CodeFile="Module1.aspx.vb" Inherits="machinelearning_Module1" %>
+﻿<%@ Page Title="Module 1" Language="VB" MasterPageFile="~/machinelearning/MasterPage.master" AutoEventWireup="false" CodeFile="Module1.aspx.vb" Inherits="machinelearning_Module1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -23,7 +23,7 @@
                             </p>
                             <i>Fuente</i>
                             <span>
-                                González, L. (2018). Introducción a Machine Learning. Recuperad de <a href="https://ligdigonzalez.com/introduccion-a-machine-learning/">https://ligdigonzalez.com/introduccion-a-machine-learning/</a>
+                                González, L. (2018). Introducción a Machine Learning. Recuperado de <a href="https://ligdigonzalez.com/introduccion-a-machine-learning/">https://ligdigonzalez.com/introduccion-a-machine-learning/</a>
                             </span>    
                         </section>
                     </div>
