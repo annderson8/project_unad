@@ -8,9 +8,9 @@
             <article class="content">
                 <section class="module-full-content">
                     <div class="module-content-inner">
-                        <h1 class="content-title">Module 3</h1>
+                        <h1 class="content-title">Definición de Machine Learning</h1>
                         <section class="content-body">
-                            <iframe width="100%" height="420" src="https://www.youtube.com/embed/_5BklQTGJmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="420" src="https://www.youtube.com/embed/CBU6zQvIKiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <p>
                                 Definir Machine Learning no es fácil ya que abarca muchas áreas y cada vez se agregan nuevos avances que hace más robusto esta definición.
                                 <br />

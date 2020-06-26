@@ -10,7 +10,7 @@
                     <div class="module-content-inner">
                         <h1 class="content-title">Aplicaciones actuales del Machine Learning</h1>
                         <section class="content-body">
-                            <asp:Image ID="Image1" runat="server" ImageUrl="http://www.joanybelortiz.com/wp-content/uploads/2019/03/Machine-Learning-Aplicaciones.jpg" AlternateText="Aplicaciones actuales del Machine Learning"/>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="https://i0.wp.com/www.aprendemachinelearning.com/wp-content/uploads/2017/09/aplicaciones-de-machine-learning.png?w=560&ssl=1" AlternateText="Aplicaciones actuales del Machine Learning"/>
                             <p>
                                 El Machine Learning está siendo utilizado de muchas maneras y sus aplicaciones seguirán aumentando en la medida que se entienda la importancia del uso de los datos como información valiosa en todos los sectores. Entender por tanto que la forma en la que interpretamos la información es capaz de ayudar en la toma de decisiones nos acerca a la resolución de problemas de una manera más eficiente.
                             </p>
@@ -62,7 +62,7 @@
                         </section>
                     </div>
                     <div class="module-content-sidebar">
-                        <h2 class="module-sidebar-title" >Module 2</h2>
+                        <h2 class="module-sidebar-title" >Module 4</h2>
                         <div class="module-author-profile">
                                 <h2>Annderson Rey <br>
                                 CEAD - JAG - Bogotá</h2>
