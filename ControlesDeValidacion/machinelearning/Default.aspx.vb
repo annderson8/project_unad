@@ -20,4 +20,7 @@ Partial Class machinelearning_Default
     Protected Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
         Response.Redirect("../Courses.aspx")
     End Sub
+    Protected Sub ExButton_Click(sender As Object, e As EventArgs) Handles ExButton.Click
+        Response.Redirect("Exam.aspx")
+    End Sub
 End Class

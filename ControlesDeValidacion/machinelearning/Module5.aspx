@@ -128,7 +128,7 @@
                                 <span>Visual Basic Avanzado</span>
                         </div>
                         <div class="module-sidebar-buttons">
-                            <asp:Button ID="NextButton" runat="server" Text="Examn" /><br>
+                            <asp:Button ID="NextButton" runat="server" Text="Exam" /><br>
                             <asp:Button ID="BackMoButton" runat="server" Text="Back Module" /><br>
                             <asp:Button ID="BackButton" runat="server" Text="Back to course" />
                         </div>

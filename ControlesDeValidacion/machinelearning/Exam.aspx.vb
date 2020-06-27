@@ -4,7 +4,7 @@ Partial Class machinelearning_Examn
 
 #Region "Variables or constants"
 
-    Private ReadOnly Answers = New String() {"D", "A", "C", "B", "D", "B", "C", "A", "D", "C"}
+    Private ReadOnly Answers = New String() {"A", "A", "B", "C", "D", "D", "B", "D", "A", "C"}
     Private Const LessAView As Integer = 1
     Private Property SelectedAnswers As String()
 
@@ -20,7 +20,9 @@ Partial Class machinelearning_Examn
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
         If Not IsPostBack Then
             RestartExam()
-            SetVisibilityButtons(True)
+            ButtonPreviousQuestion.Visible = False
+            ButtonNextQuestion.Visible = True
+            ButtonNextEndExam.Visible = False
         End If
     End Sub
 
@@ -34,6 +36,7 @@ Partial Class machinelearning_Examn
         Dim MaxViews = MultiViewPrincipal.Views.Count - LessAView
         If SelectedAnswer() Then
             If MultiViewPrincipal.ActiveViewIndex < MaxViews Then
+                SetVisibilityButtons(True)
                 MultiViewPrincipal.ActiveViewIndex = MultiViewPrincipal.ActiveViewIndex + NextView
             Else
                 SetVisibilityButtons(False)
@@ -218,4 +221,7 @@ Partial Class machinelearning_Examn
 
 #End Region
 
+    Protected Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
+        Response.Redirect("default.aspx")
+    End Sub
 End Class

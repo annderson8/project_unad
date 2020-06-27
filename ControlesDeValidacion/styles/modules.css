@@ -205,6 +205,13 @@ h2 {
     text-align: center;
 }
 
+    .question h2 span {
+        background: #f4ac27;
+        border-radius: 100%;
+        color: whitesmoke;
+        padding: 5px;
+    }
+
 .question table {
     width: 100%;
 }
@@ -243,7 +250,31 @@ h2 {
         margin-right: 15px;
     }
 
+.answers table {
+    width: 100%;
+    text-align: center;
+    background: #ececec;
+    border: whitesmoke;
+}
 
+.answers th{
+
+}
+
+.answers td {
+    font-size: 18px;
+}
+.answers tr {
+    line-height: 1.5em;
+}
+    .answers tr:nth-child(even) {
+        background: #e2e2e2;
+    }
+
+.final-score {
+    margin: 0;
+    color: #f4ac27;
+}
 @media (max-width: 680px) {
     .site-main {
         padding: 4vw 0;

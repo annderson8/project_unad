@@ -19,34 +19,35 @@ Partial Class machinelearning_Answers
 ''' <param name="sender"></param>
 ''' <param name="e"></param>
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-    If Not IsPostBack Then
-        Const StartPosition As Integer = 0
-        AnswersCounter = 0
-        Dim Answers() As String = Session.Contents("Answers")
-        Dim SelectedAnswers() As String = Session.Contents("SelectedAnswers")
-        Dim DataTableAnswers As New DataTable()
-        DataTableAnswers.Columns.Add("Question")
-        DataTableAnswers.Columns.Add("Selected Answer")
-        DataTableAnswers.Columns.Add("Correct Answer")
-        DataTableAnswers.Columns.Add("Value")
-        For i = StartPosition To Answers.Length - 1
-            Dim DataRowAnswer As DataRow = DataTableAnswers.NewRow()
-            DataRowAnswer("Question") = i + 1
-            DataRowAnswer("Selected Answer") = SelectedAnswers(i)
-            DataRowAnswer("Correct Answer") = Answers(i)
-            DataRowAnswer("Value") = GetValueAnswer(SelectedAnswers(i), Answers(i))
-            DataTableAnswers.Rows.Add(DataRowAnswer)
-        Next
-        GridViewSeeAnswers.Visible = True
-        GridViewSeeAnswers.DataSource = DataTableAnswers
-        GridViewSeeAnswers.DataBind()
-        Dim TotalAnswers As Integer
-        TotalAnswers = Answers.Length
-        Const TotalAnswersValue As Integer = 100
-        Dim PercentageAnswers = (AnswersCounter * TotalAnswersValue) / TotalAnswers
-        LabelResult.Text = "Correct answers: " & AnswersCounter & " on: " & TotalAnswers & " Percentage: " & PercentageAnswers & "%"
-    End If
-End Sub
+        If Not IsPostBack Then
+            Const StartPosition As Integer = 0
+            AnswersCounter = 0
+            Dim Answers() As String = Session.Contents("Answers")
+            Dim SelectedAnswers() As String = Session.Contents("SelectedAnswers")
+            Dim DataTableAnswers As New DataTable()
+            DataTableAnswers.Columns.Add("Question")
+            DataTableAnswers.Columns.Add("Selected Answer")
+            DataTableAnswers.Columns.Add("Correct Answer")
+            DataTableAnswers.Columns.Add("Value")
+            For i = StartPosition To Answers.Length - 1
+                Dim DataRowAnswer As DataRow = DataTableAnswers.NewRow()
+                DataRowAnswer("Question") = i + 1
+                DataRowAnswer("Selected Answer") = SelectedAnswers(i)
+                DataRowAnswer("Correct Answer") = Answers(i)
+                DataRowAnswer("Value") = GetValueAnswer(SelectedAnswers(i), Answers(i))
+                DataTableAnswers.Rows.Add(DataRowAnswer)
+            Next
+            GridViewSeeAnswers.Visible = True
+            GridViewSeeAnswers.DataSource = DataTableAnswers
+            GridViewSeeAnswers.DataBind()
+            Dim TotalAnswers As Integer
+            TotalAnswers = Answers.Length
+            Const TotalAnswersValue As Integer = 100
+            Dim PercentageAnswers = (AnswersCounter * TotalAnswersValue) / TotalAnswers
+            LabelResult.Text = "Correct answers: " & AnswersCounter & " on: " & TotalAnswers & " Percentage: " & PercentageAnswers & "%"
+            TxtResult.Text = "" & AnswersCounter
+        End If
+    End Sub
 
 ''' <summary>
 ''' Restart Exam button event question
@@ -54,7 +55,7 @@ End Sub
 ''' <param name="sender"></param>
 ''' <param name="e"></param>
 Protected Sub ButtonRestartExam_Click(sender As Object, e As EventArgs) Handles ButtonRestartExam.Click
-        Response.Redirect("Examn.aspx")
+        Response.Redirect("Exam.aspx")
     End Sub
 
 #End Region
@@ -80,4 +81,7 @@ End Function
 
 #End Region
 
+    Protected Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
+        Response.Redirect("default.aspx")
+    End Sub
 End Class
