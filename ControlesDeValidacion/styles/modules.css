@@ -86,9 +86,10 @@ h2 {
     flex-direction: column;
     font-family: Georgia, Times, serif;
 }
-.content-body img {
-    width: 100%;
-}
+
+    .content-body img {
+        width: 100%;
+    }
 
 .module-full-content {
     display: grid;
@@ -194,51 +195,51 @@ h2 {
     padding: 1.5vw 0;
 }
 
-.question{
+.question {
     background-color: #ececec;
     border-radius: 8px;
     padding: 5px 25px;
 }
 
-.question h2 {
-    margin: 0.5em 0 0.5em 0;
-    text-align: center;
-}
-
-    .question h2 span {
-        background: #f4ac27;
-        border-radius: 100%;
-        color: whitesmoke;
-        padding: 5px;
+    .question h2 {
+        margin: 0.5em 0 0.5em 0;
+        text-align: center;
     }
 
-.question table {
-    width: 100%;
-}
+        .question h2 span {
+            background: #f4ac27;
+            border-radius: 100%;
+            color: whitesmoke;
+            padding: 5px;
+        }
 
-.question td {
-    background: #ececec;
-    border-radius: 10px;
-    border: #fff solid 1px;
-}
+    .question table {
+        width: 100%;
+    }
 
-.question input[type=radio]{
-    height: 15px;
-    width: 15px;
-    margin-right: 20px;
-}
+    .question td {
+        background: #ececec;
+        border-radius: 10px;
+        border: #fff solid 1px;
+    }
 
-.question label{
-    font-style: italic;
-    color: #15171a;
-}
+    .question input[type=radio] {
+        height: 15px;
+        width: 15px;
+        margin-right: 20px;
+    }
+
+    .question label {
+        font-style: italic;
+        color: #15171a;
+    }
 
 .module-question-buttons {
     margin-top: 15px;
     padding: 0 15px;
 }
 
-.module-question-buttons input {
+    .module-question-buttons input {
         background-color: #2194c0;
         color: whitesmoke;
         font-weight: 800;
@@ -257,16 +258,17 @@ h2 {
     border: whitesmoke;
 }
 
-.answers th{
-
+.answers th {
 }
 
 .answers td {
     font-size: 18px;
 }
+
 .answers tr {
     line-height: 1.5em;
 }
+
     .answers tr:nth-child(even) {
         background: #e2e2e2;
     }
@@ -275,6 +277,7 @@ h2 {
     margin: 0;
     color: #f4ac27;
 }
+
 @media (max-width: 680px) {
     .site-main {
         padding: 4vw 0;

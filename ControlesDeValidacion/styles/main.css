@@ -122,7 +122,7 @@
 }
 
 .input option {
-    color:black;
+    color: black;
 }
 
 .button {
@@ -140,7 +140,6 @@
 }
 
 .button_course {
-
     border-radius: 15px;
     height: 150px;
     margin: 10px 0px;
@@ -152,8 +151,8 @@
     margin: 8px 0px;
 }
 
-    @media only screen and (max-width: 600px) {
-        .register__container {
+@media only screen and (max-width: 600px) {
+    .register__container {
         background-color: transparent;
         border: none;
         box-shadow: none;
