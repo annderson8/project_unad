@@ -1,0 +1,31 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageASPNET.master.vb" Inherits="aspnet_MasterPageASPNET" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Curso ASP. NET</title>
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/modules.css">
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<header class="header">
+		<img class="imgHeader" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Unad_%28Colombia%29_logo.svg">
+	</header>
+	<section class="register">
+		<form id="formASPNET" runat="server">
+			<div>
+				<asp:ContentPlaceHolder ID="ContentPlaceHolderASPNET" runat="server">
+				</asp:ContentPlaceHolder>
+			</div>
+		</form>
+	</section>
+	<footer class="footer">
+		<p>© Copyright 2020 - Juan Cubillos</p>
+	</footer>
+</body>
+</html>
+
