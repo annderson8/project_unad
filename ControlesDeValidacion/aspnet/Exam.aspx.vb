@@ -69,7 +69,7 @@
             SelectedAnswers(Answer) = GetAnswer(Answer + StepCount)
         Next Answer
         Session("SelectedAnswers") = SelectedAnswers
-        Response.Redirect("SeeAnswers.aspx")
+        Response.Redirect("ViewAnswers.aspx")
     End Sub
 
     ''' <summary>

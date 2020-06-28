@@ -157,8 +157,7 @@
 								&nbsp;
 								<asp:Button ID="ButtonNextQuestion" runat="server" Visible="false"
 									Text="Next Question" />
-								<asp:Button ID="ButtonNextEndExam" runat="server" Visible="false" Text="Finish exam"
-									OnClientClick="return confirm('Are you sure?')" />
+								<asp:Button ID="ButtonNextEndExam" runat="server" Visible="false" Text="Finish exam" />
 							</div>
 						</section>
 					</div>
