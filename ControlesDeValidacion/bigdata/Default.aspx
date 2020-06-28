@@ -11,7 +11,7 @@
         <asp:Button ID="MButton3" CssClass="button button_module" runat="server" Text="Module 3" />
         <asp:Button ID="MButton4" CssClass="button button_module" runat="server" Text="Module 4" />
         <asp:Button ID="MButton5" CssClass="button button_module" runat="server" Text="Module 5" />
-        <asp:Button ID="MButton6" CssClass="button button_module" runat="server" Text="Module 6" />
+        <asp:Button ID="MButton6" CssClass="button button_module" runat="server" Text="E-Books" />
     </section>
     <asp:Button ID="ExButton" CssClass="button" runat="server" Text="Examn" />
     <asp:Button ID="BackButton" CssClass="button" runat="server" Text="Back" />
