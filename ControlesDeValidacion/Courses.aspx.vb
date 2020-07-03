@@ -5,9 +5,9 @@ Partial Class Default2
     Protected Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
         Response.Redirect("/")
     End Sub
-    Protected Sub AwsButton_Click(sender As Object, e As EventArgs) Handles AwsButton.Click
-        Response.Redirect("aws/")
-    End Sub
+    'Protected Sub AwsButton_Click(sender As Object, e As EventArgs) Handles AwsButton.Click
+    '    Response.Redirect("aws/")
+    'End Sub
     Protected Sub BDButton_Click(sender As Object, e As EventArgs) Handles BDButton.Click
         Response.Redirect("bigdata/")
     End Sub
