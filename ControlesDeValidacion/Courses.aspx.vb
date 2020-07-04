@@ -17,4 +17,7 @@ Partial Class Default2
     Protected Sub ASPButton_Click(sender As Object, e As EventArgs) Handles ASPButton.Click
         Response.Redirect("aspnet/")
     End Sub
+     Protected Sub MDButton_Click(sender As Object, e As EventArgs) Handles MDButton.Click
+        Response.Redirect("mineriadeDatos/")
+    End Sub
 End Class
