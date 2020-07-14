@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="machinelearning_Default" %>
+﻿<%@ Page Title="Course Machine-Learning" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="machinelearning_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -11,10 +11,9 @@
         <asp:Button ID="MButton3" CssClass="button button_module" runat="server" Text="Module 3" />
         <asp:Button ID="MButton4" CssClass="button button_module" runat="server" Text="Module 4" />
         <asp:Button ID="MButton5" CssClass="button button_module" runat="server" Text="Module 5" />
-        <asp:Button ID="MButton6" CssClass="button button_module" runat="server" Text="Module 6" />
     </section>
-    <asp:Button ID="ExButton" CssClass="button" runat="server" Text="Examn" />
-    <asp:Button ID="BackButton" CssClass="button" runat="server" Text="Back" />
+    <asp:Button ID="ExButton" CssClass="button" runat="server" Text="Course exam" />
+    <asp:Button ID="BackButton" CssClass="button" runat="server" Text="Back to courses" />
  </section> 
 </asp:Content>
 

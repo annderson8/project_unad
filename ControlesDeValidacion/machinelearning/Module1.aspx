@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Module1.aspx.vb" Inherits="machinelearning_Module1" %>
+﻿<%@ Page Title="Module 1" Language="VB" MasterPageFile="~/machinelearning/MasterPage.master" AutoEventWireup="false" CodeFile="Module1.aspx.vb" Inherits="machinelearning_Module1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -23,7 +23,11 @@
                             </p>
                             <i>Fuente</i>
                             <span>
+<<<<<<< HEAD
                                 González, L. (2018). Introducción a Machine Learning. Recuperad de <a href="https://ligdigonzalez.com/introduccion-a-machine-learning/">https://ligdigonzalez.com/introduccion-a-machine-learning/</a>
+=======
+                                González, L. (2018). Introducción a Machine Learning. Recuperado de <a href="https://ligdigonzalez.com/introduccion-a-machine-learning/">https://ligdigonzalez.com/introduccion-a-machine-learning/</a>
+>>>>>>> 4780c5df89b8a23e1df9ec93ad9eaa6b1d7b6a9c
                             </span>    
                         </section>
                     </div>
@@ -36,7 +40,11 @@
                         </div>
                         <div class="module-sidebar-buttons">
                             <asp:Button ID="NextButton" runat="server" Text="Next Module" /><br>
+<<<<<<< HEAD
                             <asp:Button ID="NextButton" runat="server" Text="Back to course" />
+=======
+                            <asp:Button ID="BackButton" runat="server" Text="Back to course" />
+>>>>>>> 4780c5df89b8a23e1df9ec93ad9eaa6b1d7b6a9c
                         </div>
                     </div>
                 </section>
