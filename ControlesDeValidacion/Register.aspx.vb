@@ -14,8 +14,8 @@ Partial Class app_Register
         objConn.Open()
 
         Dim sql As String = "INSERT INTO Users " &
-            "( nombres, apellidos, nacionalidad, estadocivil, correo)" &
-            "VALUES ('" & nombresTextBox.Text & "','" & apellidosTextBox.Text & "','" & nacionalidadTextBox.Text & "', '" & estadocivilDropDownList.Text & "','" & correoTextBox.Text & "')"
+            "( nombres, apellidos, nacionalidad, correo)" &
+            "VALUES ('" & nombresTextBox.Text & "','" & apellidosTextBox.Text & "','" & nacionalidadTextBox.Text & "','" & correoTextBox.Text & "')"
         Dim objCmd As New SqlCommand(sql, objConn)
 
         Try

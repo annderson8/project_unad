@@ -5,8 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 	<section class="container default">
 		<h2>UNAD COURSES</h2>
-		<%--<asp:Button ID="Button2" CssClass="button" runat="server" Text="Sign Up" />--%>
-		<asp:Button ID="Button1" CssClass="button" runat="server" Text="Courses" />
+		<asp:Button ID="RegisterBtn" CssClass="button" runat="server" Text="Sign Up" />
+		<asp:Button ID="LoginBtn" CssClass="button" runat="server" Text="Sing In" />
 	</section>
 </asp:Content>
 

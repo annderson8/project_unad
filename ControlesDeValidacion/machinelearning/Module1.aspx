@@ -40,11 +40,7 @@
                         </div>
                         <div class="module-sidebar-buttons">
                             <asp:Button ID="NextButton" runat="server" Text="Next Module" /><br>
-<<<<<<< HEAD
-                            <asp:Button ID="NextButton" runat="server" Text="Back to course" />
-=======
                             <asp:Button ID="BackButton" runat="server" Text="Back to course" />
->>>>>>> 4780c5df89b8a23e1df9ec93ad9eaa6b1d7b6a9c
                         </div>
                     </div>
                 </section>

@@ -8,13 +8,9 @@
     <asp:TextBox ID="nombresTextBox" CssClass="input" runat="server" placeholder="Names" />
     <asp:TextBox ID="apellidosTextBox" CssClass="input" runat="server" placeholder="Last Names" />
     <asp:TextBox ID="nacionalidadTextBox" CssClass="input" runat="server" placeholder="Nationality" />
-     <asp:DropDownList ID="estadocivilDropDownList" CssClass="input" runat="server">
-       <asp:ListItem>Single</asp:ListItem>
-       <asp:ListItem>Married</asp:ListItem>
-       <asp:ListItem>Divorced</asp:ListItem>
-       <asp:ListItem>Widower</asp:ListItem>
-     </asp:DropDownList>
     <asp:TextBox ID="correoTextBox" CssClass="input" runat="server" placeholder="E-mail" />
+    <asp:TextBox ID="TcontraTxtBox" TextMode="Password" CssClass="input" runat="server" placeholder="Password" />
+    <asp:TextBox ID="recontraTxtBox" TextMode="Password" CssClass="input" runat="server" placeholder="Confirm Password" />
     <asp:Button ID="InsertButton" CssClass="button" runat="server" CausesValidation="True" CommandName="Insert" Text="Register" />
     <asp:Button ID="BackButton" CssClass="button" runat="server" Text="Back" />
  </section>    
